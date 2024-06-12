@@ -110,10 +110,10 @@ html[xmlns] .flexslider .slides {
   }
 }
 .carousel li {
-  margin-right: 5px;
+  margin-right: 50px;
 }
 .flex-direction-nav {
-  *height: 0;
+  height: 0;
 }
 .flex-direction-nav a {
   text-decoration: none;
@@ -266,10 +266,13 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
   cursor: default;
 }
+.main-banner {
+  margin-bottom: 50px; /* Adjust this value as needed */
+}
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 900px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
