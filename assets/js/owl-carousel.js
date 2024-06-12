@@ -66,13 +66,13 @@
 		 * Absolute current position.
 		 * @protected
 		 */
-		this._current = null;
+		this._current = 0;
 
 		/**
 		 * Animation speed in milliseconds.
 		 * @protected
 		 */
-		this._speed = null;
+		this._speed = 5000;
 
 		/**
 		 * Coordinates of all items in pixel.
@@ -185,10 +185,14 @@
 	 */
 	Owl.Defaults = {
 		items: 3,
-		loop: false,
+		loop: true,
 		center: false,
 		rewind: false,
 		checkVisibility: true,
+		autoplay: true,
+		autoplayHoverPause: true,
+		autoplaySpeed: 5000,
+		nav: true,
 
 		mouseDrag: true,
 		touchDrag: true,
