@@ -64,8 +64,11 @@
       nav: true,
 	  navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
       margin:30,
+      autoplay: true,
+      autoplayTimeout: 5000, 
+      autoplayHoverPause: true,
       responsive:{
-        992:{
+        880:{
             items:1
         },
 		1200:{
@@ -81,6 +84,9 @@
       nav: true,
 	  navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
       margin:30,
+	  autoplay: true,
+      autoplayTimeout: 5000, 
+      autoplayHoverPause: true,
       responsive:{
         992:{
             items:1
