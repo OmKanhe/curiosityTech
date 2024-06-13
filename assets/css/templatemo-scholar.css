@@ -297,7 +297,7 @@ Header Style
 }
 
 .background-header {
-  background-color: #DBC4F0 !important;
+  background-color: #9a7bff !important;
   border-radius: 0px 0px 25px 25px;
   height: 100px!important;
   position: fixed!important;
@@ -686,7 +686,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
+  
   /* filter: brightness(1.4); */
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -728,6 +728,7 @@ Banner Style
   border-radius: 25px;
   padding: 100px 100px;
   margin-left: 130px;
+  
 }
 
 .main-banner .item span.category {
